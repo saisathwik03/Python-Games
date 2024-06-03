@@ -7,7 +7,7 @@ def deck_creation():
     for i in range(2, 12):
         deck += [i] * 4  
     # Adding 10 (face cards) nine times
-    deck += [10] * 9 
+    deck += [10] * 12
     return deck
 
 # Function to deal cards to players
